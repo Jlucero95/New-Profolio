@@ -1,0 +1,16 @@
+.navbar {
+  display: flex;
+  flex-wrap: nowrap;
+  max-width: 1140px;
+  justify-content: space-between;
+  margin: 5px 10px;
+  align-items: center;
+  color: var(--font-light);
+}
+.navbar ul {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  width: 275px;
+  
+}
