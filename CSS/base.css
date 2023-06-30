@@ -1,6 +1,7 @@
 :root {
-  --grad-1: #e2f514;
-  --grad-2:#4ecc0e;
+  --grad-1: #ffea00;
+  --grad-2: #dbec1ee4;
+  --grad-3:#09ff00;
   --drk-grad-1:#802cc9;
   --drk-grad-2: #3d24c9;
   --font-drk: #fff;
@@ -23,7 +24,7 @@ nav {
 
 body {
   margin: 0;
-  font-family: "Inter", sans-serif;
+  font-family: 'Great Vibes', cursive;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;

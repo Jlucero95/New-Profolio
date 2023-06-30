@@ -3,13 +3,35 @@
   flex-wrap: nowrap;
   max-width: 1140px;
   justify-content: space-between;
-  margin: 5px 10px;
+  margin: 5px auto;
   align-items: center;
   color: var(--font-light);
+  background-image: linear-gradient(to right, var(--grad-1) , var(--grad-2), var(--grad-3));
+  font-size: 14px;
 }
 .navbar ul {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-evenly;
   width: 275px;
+}
+
+.name {
+  margin: auto 40px; 
+}
+
+.profession {
+  max-width: 800px;
+  max-height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 35px auto;
+  justify-content: space-between;
+}
+
+.picture {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  background-color: black;
 }
