@@ -1,3 +1,8 @@
+header {
+  max-width: 1000px;
+  margin: 2px auto;
+}
+
 .navbar {
   display: flex;
   flex-wrap: nowrap;
@@ -21,17 +26,32 @@
 }
 
 .profession {
-  max-width: 800px;
+  max-width: 900px;
   max-height: 400px;
   display: flex;
   flex-wrap: wrap;
   margin: 35px auto;
   justify-content: space-between;
+  align-items: center;
 }
 
 .picture {
-  width: 300px;
-  height: 300px;
-  border-radius: 150px;
+  width: 250px;
+  height: 250px;
+  border-radius: 125px;
   background-color: black;
+}
+
+.languages {
+  background-image: linear-gradient(to bottom left , var(--grad-1), var(--grad-2), var(--grad-3));
+  width: 550px;
+  height: 165px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title{
+  font-size: 22px;
+  text-align: center;
 }
