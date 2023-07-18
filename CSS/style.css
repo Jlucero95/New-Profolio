@@ -30,6 +30,11 @@ header {
 	margin: auto 40px;
 }
 
+.picture {
+	background-image: url(/assets/Head-shot.png);
+	background-size: cover;
+}
+
 .profession {
 	max-width: 900px;
 	max-height: 400px;
